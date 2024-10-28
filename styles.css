@@ -1,0 +1,91 @@
+footer {
+    background-color: #6B5E55;
+    color: black;
+    padding: 20px 0;
+}
+
+.card {
+    border-radius: 8px;
+    border: 1px solid #D2B48C;
+    background-color: #FFFFF0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #8B7B5D;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    color: #5C4033;
+}
+
+
+h3, h2 {
+    color: #8B7B5D;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+
+.custom-navbar {
+    background-color: #F5F5F5;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-navbar .navbar-brand {
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+
+.custom-navbar .navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.custom-navbar .nav-link {
+    color: #404040;
+    font-size: 1.1rem;
+    margin-right: 1.5rem;
+}
+
+.custom-navbar .nav-link.active,
+.custom-navbar .nav-link:hover {
+    color: #87CEEB;
+}
+
+/* Button colors */
+.btn-primary {
+    background-color: #8B7B5D;
+    border-color: #8B7B5D;
+    font-size: 1.1rem;
+    padding: 0.8rem 1.5rem;
+}
+
+.btn-primary:hover {
+    background-color: #6B5E55;
+}
+
+
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.section-box {
+    background-color: #f9f4ec;
+    border-radius: 10px;      
+    padding: 20px;       
+    margin-bottom: 20px;   
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
